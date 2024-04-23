@@ -1,0 +1,122 @@
+.login {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    background-color: #10e494;
+}
+
+.login-box {
+    width: 1600px;
+    height: 100%;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    height: 70%;
+}
+
+.login-box img {
+    width: 60%;
+    height: auto;
+}
+
+.title {
+    margin: 0px auto 30px auto;
+    text-align: center;
+    color: #707070;
+}
+
+.login-form {
+    background: #323542;
+    width: 40%;
+    border-radius: 0px 8px 8px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form .el-form {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form .el-form-item {
+    margin-bottom: 5%;
+    width: 100%;
+}
+
+.login-form .el-form-item.is-error .el-input__inner {
+    border: 0 !important;
+    border-bottom: 1px solid #fd7065 !important;
+    background: #fff !important;
+}
+
+.login-form .input-icon {
+    height: 32px;
+    width: 18px;
+    margin-left: -2px;
+}
+
+.login-form .el-input__inner {
+    border: 0;
+    border-radius: 0;
+    font-size: 22px;
+    font-weight: 400;
+    color: black;
+    height: 32px;
+    line-height: 32px;
+}
+
+.login-form .el-input__prefix {
+    left: 11px;
+}
+
+.login-form .el-input--prefix .el-input__inner {
+    padding-left: 35px;
+    height: 50px;
+}
+
+.login-form .el-input__inner::placeholder {
+    color: #aeb5c4;
+}
+
+.login-form .el-form-item--medium .el-form-item__content {
+    line-height: 32px;
+}
+
+.login-form .el-input--medium .el-input__icon {
+    line-height: 32px;
+}
+
+.login-btn {
+    padding: 18px 20px !important;
+    font-weight: 800;
+    font-size: 18px;
+    border: 0;
+    background-color: #10e494;
+    letter-spacing: 20px;
+}
+
+.login-btn:hover,
+.login-btn:focus {
+    /* background: #FFC200; */
+    /* color: #ffffff; */
+}
+
+.login-form-title {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.login-form-title .title-label {
+    font-weight: 500;
+    font-size: 20px;
+    color: #333333;
+    margin-left: 10px;
+}
