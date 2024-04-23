@@ -18,6 +18,11 @@ import java.util.List;
 @Configuration
 @Slf4j
 public class WebMvcConfig extends WebMvcConfigurationSupport {
+    /**
+     * 设置静态资源映射，spring mvc 默认是寻找controller的。
+     *
+     * @param registry
+     */
     @Override
     protected void addResourceHandlers(ResourceHandlerRegistry registry) {
         //静态资源映射
